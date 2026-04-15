@@ -15,9 +15,9 @@ Drop-in GitHub Actions workflows for any project.
 ```bash
 # From your project root
 mkdir -p .github/workflows
-curl -sL https://raw.githubusercontent.com/localvos/workflows/main/.github/workflows/auto-tag.yml -o .github/workflows/auto-tag.yml
-curl -sL https://raw.githubusercontent.com/localvos/workflows/main/.github/workflows/release.yml -o .github/workflows/release.yml
-curl -sL https://raw.githubusercontent.com/localvos/workflows/main/.github/workflows/pr-lint.yml -o .github/workflows/pr-lint.yml
+curl -sL https://raw.githubusercontent.com/dvos-tools/workflows/main/.github/workflows/auto-tag.yml -o .github/workflows/auto-tag.yml
+curl -sL https://raw.githubusercontent.com/dvos-tools/workflows/main/.github/workflows/release.yml -o .github/workflows/release.yml
+curl -sL https://raw.githubusercontent.com/dvos-tools/workflows/main/.github/workflows/pr-lint.yml -o .github/workflows/pr-lint.yml
 ```
 
 Or just copy the files from `.github/workflows/` into your project.
