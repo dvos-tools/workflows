@@ -17,7 +17,7 @@ jobs:
           # With optional ! for breaking changes
           PATTERN="^(feat|fix|chore|docs|refactor|test|ci|style|perf|build)(\([a-z0-9_-]+\))?!?: .+"
 
-          if echo "$TITLE" | grep -qE "$PATTERN"; then
+          if echo "$TITLE" | grep -qiE "$PATTERN"; then
             echo "PR title is valid: $TITLE"
           else
             echo "::error::PR title must follow Conventional Commits format."
